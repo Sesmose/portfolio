@@ -1,15 +1,53 @@
 <template>
     <section class="mt-32">
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"><span class="numberSection">03.</span>Mes expériences</h2>
-            <p class="mb-4"></p>
-            <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-4">
+            <div class="font-light text-white sm:text-lg dark:text-white">
+                <h2 class="mb-4 text-4xl   dark:text-white"><span class="numberSection">03.</span>Mes expériences</h2>
+                <p class="mb-4"></p>
+                <app-tabs class=" mx-auto" :tabList="tabList" variant="horizontal">
+                    <template v-slot:tabPanel-1>
+                        <p class="font-bold">Titre RNCP Bac +2 Développeur Web full-stack</p>
+                        <p class="mb-4"></p>
+                        <ol class="list-disc">
+                            <li>Apprentissage du front-end et back-end</li>
+                            <li>Apprentissage du framework Symfony</li>
+                            <li>Présentation d'un projet complet pour l'obtention du titre</li>
+                        </ol>
+                    </template>
+                    <template v-slot:tabPanel-2>
+                        <p class="font-bold">Titre RNCP Bac +3 Responsable en ingénierie logiciel</p>
+                        <p class="mb-4"></p>
+                        <ol class="list-disc">
+                            <li>Solidification des compétences techniques</li>
+                            <li>Apprentissage de la gestion de projet</li>
+                        </ol>    
+                    </template>
+                    <template v-slot:tabPanel-3> 
+                        <p class="font-bold">Titre RNCP Bac +5 Master Manager Systèmes d'Informations</p>
+                        <p class="mb-4"></p>
+                        <ol class="list-disc">
+                            <li>Solidification des compétences techniques</li>
+                            <li>Solidification des compétences de gestion de projet</li>
+                            <li>Apprentissage du management d'équipe</li>
+                        </ol>    
+                    </template>
+                </app-tabs>
+            </div>
+
         </div>
-        <div class="grid grid-cols-2 gap-4 mt-8">
-            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
-        </div>
-    </div>
-</section>
+    </section>
 </template>
+<script>
+import AppTabs from "../components/Tabs.vue";
+
+export default {
+  components: {
+    AppTabs,
+  },
+  data() {
+    return {
+      tabList: ["Bac +2", "Bac +3", "Bac +5"],
+    };
+  },
+};
+</script>

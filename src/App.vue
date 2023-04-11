@@ -1,11 +1,5 @@
 <script setup>
-import HeroSection from './components/HeroSection.vue';
 import Navbar from './components/Navbar.vue';
-import About from './components/About.vue';
-import Experiences from './components/Experiences.vue';
-import Works from './components/Works.vue';
-import Contact from './components/Contact.vue';
-
 
 </script>
 
