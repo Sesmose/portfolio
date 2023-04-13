@@ -10,16 +10,16 @@
     <div :class="{hidden : open}" class=" w-full md:block md:w-auto" id="navbar-default">
       <ul class="font-medium flex flex-col p-4 md:p-0 mt-4  md:flex-row md:space-x-8 md:mt-0 dark:text-white">
         <li>
-          <router-link to="/" class="block py-2 pl-3 pr-4"><span class="numberSection">01.Qui suis-je ?</span></router-link>
+          <a v-smooth-scroll href="/#about" class="block py-2 pl-3 pr-4"><span class="numberSection">01.Qui suis-je ?</span></a>
         </li>
         <li>
-          <router-link to="/experiences" class="block py-2 pl-3 pr-4"><span class="numberSection">02.Mon parcours</span></router-link>
+          <a v-smooth-scroll href="/#experiences" class="block py-2 pl-3 pr-4"><span class="numberSection">02.Mon parcours</span></a>
         </li>
         <li>
-          <router-link to="/projects" class="block py-2 pl-3 pr-4"><span class="numberSection">03.Mes projets</span></router-link>
+          <a v-smooth-scroll href="/#projects" class="block py-2 pl-3 pr-4"><span class="numberSection">03.Mes projets</span></a>
         </li>
         <li>
-          <router-link to="/contact" class="block py-2 pl-3 pr-4"><span class="numberSection">04. On se contacte ?</span></router-link>
+          <a v-smooth-scroll href="/#contact" class="block py-2 pl-3 pr-4"><span class="numberSection">04.On se contacte ?</span></a>
         </li>
       </ul>
     </div>
