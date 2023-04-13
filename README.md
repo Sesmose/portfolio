@@ -1,6 +1,8 @@
 # portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Portfolio project with Vue 3. 
+This app present my career and work experiences.
+Full Javascript SPA in order to learn Vue 3.
 
 ## Recommended IDE Setup
 
