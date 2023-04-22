@@ -4,7 +4,7 @@
         <!-- Container for demo purpose -->
         <div class="container my-24 px-6 mx-auto ">
             <!-- Section: Design Block -->
-            <section class=" dark:text-white text-center lg:text-left">
+            <section class="mb-64 dark:text-white text-center lg:text-left">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"><span
                         class="numberSection">03.</span>Mes projets</h2>
                 <p class="mb-4"></p>
@@ -14,7 +14,7 @@
                     <div class="mb-12 lg:mb-0">
                         <div class="shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
                             style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                            <img src="../../public/explore.png" class="w-full" />
+                            <img src="/explore.png" class="w-full" />
                             <a target="_blank" href="https://www.explore-demain.fr/">
                                 <div class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
                                     style="background-color: rgba(251, 251, 251, 0.2)"></div>
@@ -35,7 +35,7 @@
                     <div class="mb-12 lg:mb-0">
                         <div class="shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
                             style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                            <img src="../../public/emforSite.png" class="w-full" />
+                            <img src="/emforSite.png" class="w-full" />
                             <a target="_blank" href="https://www.emfor-bfc.org/">
                                 <div class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
                                     style="background-color: rgba(251, 251, 251, 0.2)"></div>
@@ -58,7 +58,7 @@
                     <div class="mb-0">
                         <div class="shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-8"
                             style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                            <img src="../../public/villa.png" class="w-full object-cover" />
+                            <img src="/villa.png" class="w-full object-cover" />
                             <a target="_blank" href="https://www.villadaisy.fr/">
                                 <div class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
                                     style="background-color: rgba(251, 251, 251, 0.2)"></div>

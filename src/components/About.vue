@@ -2,11 +2,11 @@
     <section id="about">
         <div class="container my-24 px-6 mx-auto">
             <!-- Section: Design Block -->
-            <section class="mb-32 text-gray-800">
+            <section class="mb-64 text-gray-800">
                 <div class="block rounded-lg">
                     <div class="flex flex-wrap items-center">
                         <div class="hidden lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
-                            <img src="../../public/avatar.png" alt="mon portrait"
+                            <img src="/avatar.png" alt="mon portrait"
                                 class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
                         </div>
                         <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">

@@ -8,15 +8,16 @@ import Contact from './components/Contact.vue';
 </script>
 
 <template id="app">
-  <main>
+
     <Navbar/>
-    <About/>
-    <Works/>
-    <Projects/>
-    <Contact/>
-    <footer>
-      <Footer/>
-    </footer>
+    <main>
+      <About/>
+      <Works/>
+      <Projects/>
+      <Contact/>
+      <footer>
+        <Footer/>
+      </footer>
   </main>
   </template>
 
